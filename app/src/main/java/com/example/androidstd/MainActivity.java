@@ -170,4 +170,8 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    public void toThreadActivity(View v){
+        Intent i=new Intent(this,ThreadActivity.class);
+        startActivity(i);
+    }
 }

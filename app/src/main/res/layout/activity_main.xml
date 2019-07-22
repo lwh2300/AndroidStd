@@ -7,6 +7,12 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnToThread"
+        android:text="切换Activty"
+        android:onClick="toThreadActivity"/>
 
     <TextView
         android:layout_width="wrap_content"
